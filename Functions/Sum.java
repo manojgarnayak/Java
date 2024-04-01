@@ -20,6 +20,7 @@ public class Sum {
         System.out.println("Enter the 2nd number: ");
         num2 = in.nextInt();
         sum =  num1 + num2;
+        in.close();
         return sum;
     }
     static void sum(){
@@ -31,5 +32,6 @@ public class Sum {
         num2 = in.nextInt();
         sum =  num1 + num2;
         System.out.println("The sum of 2 numbers is: "+ sum);
+        in.close();
     }
 }
